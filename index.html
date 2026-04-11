@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="nl" class="lenis lenis-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbershop Voorbeeld — Vakmanschap in Stijl</title>
+  <meta name="description" content="Barbershop Voorbeeld in Amsterdam — klassiek barbieren, baardverzorging en haarsnit. Walk-in of afspraak. Vakmanschap sinds 2010.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-strip"></div>
+  <header class="header">
+    <a href="index.html" class="header-logo" aria-label="Home">
+      <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="60" rx="4" fill="var(--color-primary)" opacity="0.9"/>
+        <text x="100" y="38" text-anchor="middle" fill="var(--color-text)" font-family="var(--font-display)" font-size="24" font-weight="900">LOGO</text>
+      </svg>
+    </a>
+    <nav><ul class="nav-list">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="work.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">Over Ons</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <button class="menu-btn" aria-label="Menu"><span class="label-open">Menu</span><span class="label-close">Close</span></button>
+  </header>
+  <div class="mobile-menu"><div class="mobile-menu-backdrop"></div><div class="mobile-menu-panel"><nav class="mobile-menu-nav">
+    <a href="index.html">Home</a><a href="work.html">Portfolio</a><a href="blog.html">Blog</a><a href="about.html">Over Ons</a><a href="contact.html">Contact</a>
+  </nav></div></div>
+
+  <div class="page-wrapper"><div class="page-bg" data-default-bg="var(--color-bg)">
+
+    <section class="banner-aannemer" data-bg-color="var(--color-bg)">
+      <div class="banner-aannemer__grid"></div>
+      <div class="banner-aannemer__stamp">
+        <iconify-icon icon="lucide:scissors"></iconify-icon>
+        <div class="banner-aannemer__stamp-text"><span>BARBERSHOP</span><span>SINDS 2010</span></div>
+      </div>
+      <h1 class="banner-aannemer__title">
+        <span class="banner-aannemer__title-outline">BARBER</span>
+        <span class="banner-aannemer__title-filled">SHOP</span>
+      </h1>
+      <div class="banner-aannemer__dimline" aria-hidden="true">
+        <span class="banner-aannemer__dim-tick"></span>
+        <span class="banner-aannemer__dim-segment"></span>
+        <span class="banner-aannemer__dim-label">AMSTERDAM — NL</span>
+        <span class="banner-aannemer__dim-segment"></span>
+        <span class="banner-aannemer__dim-label">6 BARBERS</span>
+        <span class="banner-aannemer__dim-segment"></span>
+        <span class="banner-aannemer__dim-label">50.000+ KNIPBEURTEN</span>
+        <span class="banner-aannemer__dim-segment"></span>
+        <span class="banner-aannemer__dim-tick"></span>
+      </div>
+      <p class="banner-aannemer__tagline">Voor de man die waarde hecht aan stijl, vakmanschap en een moment voor zichzelf. Klassiek barbieren met een moderne twist — walk-in of op afspraak.</p>
+    </section>
+
+    <section class="section-padding section-reveal" style="padding-top:var(--sp-5);padding-bottom:var(--sp-5)">
+      <div class="hero-video">
+        <img src="images/hero.jpg" alt="Interieur Barbershop Voorbeeld met klassieke barbierstoelen" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover">
+      </div>
+    </section>
+
+    <section class="text-reveal-section" data-bg-color="var(--color-accent)">
+      <div class="grid-2" style="align-items:start">
+        <div class="text-reveal-content">Wij geloven dat een bezoek aan de barbier meer is dan een knipbeurt. Het is een ritueel. Ons team van ervaren barbers combineert klassieke technieken met moderne trends. Van hot towel shave tot skin fade — wij creëren de look die bij je past.</div>
+        <div class="text-reveal-media">
+          <img src="images/craft.jpg" alt="Professioneel barbiergereedschap in lederen etui" style="width:100%;display:block;aspect-ratio:1/1;object-fit:cover">
+        </div>
+      </div>
+    </section>
+
+    <div class="divider section-padding"></div>
+
+    <section class="quote-aannemer section-reveal">
+      <div class="quote-aannemer__inner">
+        <div class="quote-aannemer__marks"><iconify-icon icon="lucide:quote" class="quote-aannemer__mark"></iconify-icon></div>
+        <blockquote class="quote-aannemer__text">Een goede barber verandert niet alleen je haar, hij verandert je <em>hele dag.</em></blockquote>
+        <div class="quote-aannemer__rule" aria-hidden="true">
+          <span class="quote-aannemer__rule-line"></span>
+          <iconify-icon icon="lucide:scissors" class="quote-aannemer__rule-icon"></iconify-icon>
+          <span class="quote-aannemer__rule-line"></span>
+        </div>
+        <p class="quote-aannemer__attribution">— BARBERSHOP VOORBEELD &nbsp;·&nbsp; AMSTERDAM &nbsp;·&nbsp; SINDS 2010</p>
+      </div>
+    </section>
+
+    <section class="services-section" data-bg-color="var(--color-accent)">
+      <h2 class="services-heading">Onze behandelingen</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <h4 class="service-title"><iconify-icon icon="lucide:scissors" style="color:var(--color-primary);font-size:1.5em;vertical-align:-0.2em;margin-right:0.4em"></iconify-icon>Knippen</h4>
+          <div class="service-desc"><p>Van classic cut tot skin fade. Elke knipbeurt begint met een consult om precies de juiste look te bepalen.</p><p>Inclusief wassen, stylen en advies over producten.</p></div>
+        </div>
+        <div class="service-item">
+          <h4 class="service-title"><iconify-icon icon="lucide:flame" style="color:var(--color-primary);font-size:1.5em;vertical-align:-0.2em;margin-right:0.4em"></iconify-icon>Hot Towel Shave</h4>
+          <div class="service-desc"><p>Het ultieme scheerervaring met warme handdoeken, pre-shave olie en een klassiek open mes.</p><p>30 minuten ontspanning en een babyglad resultaat.</p></div>
+        </div>
+        <div class="service-item">
+          <h4 class="service-title"><iconify-icon icon="lucide:sparkles" style="color:var(--color-primary);font-size:1.5em;vertical-align:-0.2em;margin-right:0.4em"></iconify-icon>Baardverzorging</h4>
+          <div class="service-desc"><p>Baard trimmen, shapen en verzorgen. Van stoppelbaard tot volle baard — wij houden hem strak.</p><p>Met premium baardolie en balsem voor de perfecte finish.</p></div>
+        </div>
+        <div class="service-item">
+          <h4 class="service-title"><iconify-icon icon="lucide:crown" style="color:var(--color-primary);font-size:1.5em;vertical-align:-0.2em;margin-right:0.4em"></iconify-icon>The Full Experience</h4>
+          <div class="service-desc"><p>Knippen + baard + hot towel shave in één sessie. Het complete pakket voor de man die het beste wil.</p><p>75 minuten vakmanschap. Inclusief drankje en ontspanning.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section" data-bg-color="var(--color-bg)">
+      <h2 class="work-heading">Ons werk</h2>
+      <div class="carousel"><div class="carousel-track">
+        <div class="carousel-slide"><a href="case.html" class="case-card"><div class="case-card-image"><img src="images/project1.jpg" alt="Barbershop producten en pomade collectie" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover"></div><div class="case-card-info"><span>Producten & Styling</span><span>Collectie</span></div></a></div>
+        <div class="carousel-slide"><a href="case.html" class="case-card"><div class="case-card-image"><img src="images/project2.jpg" alt="Barbershop wachtruimte met Chesterfield banken" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover"></div><div class="case-card-info"><span>Interieur & Sfeer</span><span>Lounge</span></div></a></div>
+        <div class="carousel-slide"><a href="case.html" class="case-card"><div class="case-card-image"><img src="images/kitchen.jpg" alt="Professionele clippers en scheerkwasten op display" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover"></div><div class="case-card-info"><span>Gereedschap</span><span>Tools of the trade</span></div></a></div>
+        <div class="carousel-slide"><a href="case.html" class="case-card"><div class="case-card-image"><img src="images/carousel.jpg" alt="Barbershop interieur met scharen en clippers aan de muur" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover"></div><div class="case-card-info"><span>Werkplek</span><span>Ambacht</span></div></a></div>
+      </div></div>
+      <a href="work.html" class="see-all-btn">Bekijk alles <span class="arrow">&rarr;</span></a>
+    </section>
+
+    <div class="footer-logo-wrap">
+      <svg viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+        <text x="720" y="160" text-anchor="middle" font-family="var(--font-display)" font-size="180" font-weight="900" fill="currentColor" opacity="0.15">BARBERSHOP</text>
+      </svg>
+    </div>
+  </div></div>
+
+  <footer class="footer">
+    <div class="grid-2">
+      <div><h2 class="footer-heading">Tijd voor een nieuwe <span class="accent">look</span></h2></div>
+      <div><div class="footer-contact">
+        <a href="mailto:tim@studiolee.nl">tim@studiolee.nl</a>
+        <a href="https://www.barbershop-voorbeeld.nl">www.barbershop-voorbeeld.nl</a>
+      </div></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Barbershop Voorbeeld. Alle rechten voorbehouden.</span>
+      <div><a href="#">Privacy</a> &middot; <a href="#">Voorwaarden</a></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+  <a href="https://www.studiolee.nl" target="_blank" rel="nofollow noopener" style="position:fixed;bottom:14px;right:14px;z-index:9999;background:rgba(0,0,0,.85);color:#fff;padding:9px 18px;border-radius:99px;font-family:system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.04em;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.25);transition:transform .2s,background .2s;display:inline-flex;align-items:center;gap:6px" onmouseover="this.style.transform='translateY(-2px)';this.style.background='#cdfb52';this.style.color='#0a0a0a'" onmouseout="this.style.transform='translateY(0)';this.style.background='rgba(0,0,0,.85)';this.style.color='#fff'">Speciaal gemaakt voor barbershops door StudioLee.nl &nearr;</a>
+</body>
+</html>
